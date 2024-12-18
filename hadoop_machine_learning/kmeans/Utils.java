@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Utils {
 
 
-    public String pre(ArrayList<Point> centers, Point point) {
+    public String pre(ArrayList<Point> centers, Point point) {// 此处的centers是K个中心点
         double distance = Double.MAX_VALUE;
         Point result = centers.get(0);
         for (Point center : centers) {
